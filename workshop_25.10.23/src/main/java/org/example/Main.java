@@ -18,7 +18,6 @@ public class Main {
         //ürün
         System.out.println("Ürün Bilgileri:");
 
-
         Product product1 =new Product("Sinbo Sco-5043 Çok Fonksiyonlu Pişirici SCO-5043",459.95,50,5,1);
         Product product2 =new Product("Roidmi X30 Pro Şarjlı Kablosuz Dikey Süpürge x30pro",12820,100,12,2);
         Product product3 =new Product("Arzum Olivya Seramik Tabanlı Ütü Ar684 AR684/SIYAH",795,35,3,3);
@@ -48,7 +47,6 @@ public class Main {
         Order order1 = new Order(1,2,"Türkiye",3);
         Order order2 = new Order(2,1,"Türkiye",4);
         Order order3 = new Order(3,1,"Türkiye",1);
-
 
         order1.info();
         order2.info();
