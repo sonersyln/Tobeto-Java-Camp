@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main
@@ -97,6 +98,57 @@ public class Main
                 System.out.println("Bilinmeyen durumlar");
                 break;
         }
+
+        // Primitive ve Reference Types
+        // OOP Giriş
+
+
+
+        // Stack - Heap
+        // Primitive => Stack => a=10
+        // Reference => @abc123 => heap @abc123={"Halit","Engin"}
+
+        int a = 5;
+        int b = a;
+        b+=1;
+        System.out.println(a);
+        System.out.println(b);
+
+        // A=10
+        // B=15
+        // names=@abc123
+        // names2=@abc123
+
+        // @abc123[0] ="Enes"
+
+        String[] names = {"Halit","Engin","Ahmet","İrem"};
+
+        // Clone
+        String[] names2 = names.clone();
+        //String[] names2 = Arrays.copyOf(names, names.length);
+
+
+        System.out.println(names);
+        System.out.println(names2);
+
+        names2[0] = "Enes";
+
+        System.out.println(names[0]);
+        System.out.println(names2[0]);
+
+        // iterasyon
+        // index
+        for (int i = 0; i < names2.length; i++) {
+            System.out.println(names2[i]);
+        }
+        // names2 içindeki her bir elemanı iterasyona uğrat
+        // her elemana name takma adını ver
+        for(String name:names2){
+            System.out.println(name);
+        }
+
+        //OOP
+
 
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
