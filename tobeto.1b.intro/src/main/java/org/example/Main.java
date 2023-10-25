@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.models.*;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -147,8 +149,19 @@ public class Main
             System.out.println(name);
         }
 
-        //OOP
+        // OOP
+        // Product => unitprice, name, discount(), sell()
+
+        // instance => örnek
+        Product product = new Product();
+        product.setName("Laptop");
+        product.discount(10);
 
 
+        // constructor => yapıcı metot
+        Product product1 = new Product("Mouse", 10);
+        product1.discount(5);
+
+        Category category = new Category();
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */

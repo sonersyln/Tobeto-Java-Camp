@@ -5,14 +5,14 @@ public class Order {
     private int userId;
     private String country;
     private int productId;
+    public Order(){
+
+    }
     public Order(int orderID, int userId, String country, int productId) {
         this.orderID = orderID;
         this.userId = userId;
         this.country = country;
         this.productId = productId;
-    }
-    public Order(){
-
     }
 
     public int getOrderID() {
