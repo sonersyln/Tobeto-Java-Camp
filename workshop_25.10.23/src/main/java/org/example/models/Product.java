@@ -10,6 +10,7 @@ public class Product {
     public Product(){
 
     }
+
     public Product(String name, double unitPrice, double discount, int unitInStock, int productId) {
         this.name = name;
         this.unitPrice = unitPrice;

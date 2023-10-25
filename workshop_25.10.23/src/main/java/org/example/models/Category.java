@@ -7,6 +7,7 @@ public class Category {
     public Category(){
 
     }
+
     public Category(String categoryName, int categoryId) {
         this.categoryName = categoryName;
         this.categoryId = categoryId;

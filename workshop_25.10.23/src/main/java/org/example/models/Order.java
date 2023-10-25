@@ -8,6 +8,7 @@ public class Order {
     public Order(){
 
     }
+
     public Order(int orderID, int userId, String country, int productId) {
         this.orderID = orderID;
         this.userId = userId;
