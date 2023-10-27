@@ -1,0 +1,9 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÏÀöö
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(´—•öÿÿÿÿÿ
+]
+java:S1128"GRemove this unused import 'org.example.dataAccess.HibernateProductDao'.(ÿ†Êº
+X
+java:S1128"BRemove this unused import 'org.example.dataAccess.JdbcProductDao'.(©Ö°ž
+F
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
