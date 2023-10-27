@@ -42,6 +42,7 @@ public class Main {
         brandService.delete(10);
         brandService.delete(5);
 
+
         //Markaları yazdırma.
         for (Brand brands3 : brands) {
             System.out.println("Marka: " + brands3.getName() + "  Model: " + brands3.getModel() + "  Id: " + brands3.getId());
