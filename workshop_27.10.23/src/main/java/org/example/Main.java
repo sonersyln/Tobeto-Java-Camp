@@ -48,6 +48,5 @@ public class Main {
         for (Brand brands3 : brands) {
             System.out.println("Marka: " + brands3.getName() + "  Model: " + brands3.getModel() + "  Id: " + brands3.getId());
         }
-
     }
 }
