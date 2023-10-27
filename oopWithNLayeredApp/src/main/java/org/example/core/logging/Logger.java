@@ -1,2 +1,6 @@
-package org.example.core.logging;public interface Logger {
+package org.example.core.logging;
+
+public interface Logger {
+    void log(String data);
+
 }

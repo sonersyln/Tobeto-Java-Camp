@@ -38,10 +38,10 @@ public class Main {
             }
         }
 
+
         //Marka silme.
         brandService.delete(10);
         brandService.delete(5);
-
 
         //Markaları yazdırma.
         for (Brand brands3 : brands) {
