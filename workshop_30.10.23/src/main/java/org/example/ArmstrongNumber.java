@@ -34,9 +34,9 @@ public class ArmstrongNumber {
                 System.out.println(number + " is not an Armstrong number!");
             }
 
-            System.out.print("Do you want to check another number? (Y/N): ");
+            System.out.print("Press 'y' to continue, 'Enter' to exit: ");
             String choice = scanner.next().toLowerCase();
-            if (choice.equals("n")) {
+            if (!choice.equals("y")) {
                 continueProgram = false;
             }
         }

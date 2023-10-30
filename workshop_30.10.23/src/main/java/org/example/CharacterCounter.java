@@ -30,8 +30,7 @@ public class CharacterCounter {
                 }
             }
 
-
-            System.out.print("Press 'y' to continue, 'n' to exit: ");
+            System.out.print("Press 'y' to continue, 'Enter' to exit: ");
             String choice = scanner.nextLine().toLowerCase();
 
             if (!choice.equals("y")) {
