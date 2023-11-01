@@ -41,6 +41,7 @@ public class UsersController {
         return user.getName() + " kullanıcı başarıyla eklendi.";
     }
 
+
     @PutMapping("/update/{id}")
     public String updateUser (@PathVariable int id, @RequestBody User updatedUser){
         for (User user : items) {
