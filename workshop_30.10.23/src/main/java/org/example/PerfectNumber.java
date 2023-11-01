@@ -32,4 +32,5 @@ public class PerfectNumber {
         }
         return sum == n; // Is the sum of divisors equal to the original number?
     }
+
 }
